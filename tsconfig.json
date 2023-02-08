@@ -16,7 +16,14 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/home/*": ["./src/components/home/*"],
+      "@/login/*": ["./src/components/login/*"],
+      "@/rooms/*": ["./src/components/rooms/*"],
+      "@/settings/*": ["./src/components/settings/*"],
+      "@/signup/*": ["./src/components/signup/*"],
+      "@/tasks/*": ["./src/components/tasks/*"],
+      "@/user/*": ["./src/components/user/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
