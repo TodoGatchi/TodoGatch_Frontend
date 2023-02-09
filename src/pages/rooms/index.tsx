@@ -1,13 +1,11 @@
-import Example from '@/rooms/Example'
+import Room from '@/components/rooms/Room'
 
 type Props = {}
 
 export default function Rooms({}: Props) {
   return (
-    <div>
-      rooms index
-
-      <Example/>
+    <div style={{backgroundColor: 'green'}}>
+      <Room/>
     </div>
   )
 }
