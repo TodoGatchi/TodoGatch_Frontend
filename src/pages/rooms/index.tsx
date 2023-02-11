@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Rooms({}: Props) {
   return (
-    <div style={{backgroundColor: 'green'}}>
+    <div>
       <Room/>
     </div>
   )
